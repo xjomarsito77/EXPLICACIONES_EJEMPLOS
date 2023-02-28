@@ -6,7 +6,7 @@ class robot():
     def name(self,nombre) -> None:
         nombre=input("ingresa su nombre: ")
         self.nombre=nombre
-        
+        print(f"SU NOMBRE ES: {nombre}")
     def arriba(self) -> None:
         l= int(input("cuantos pasos quieres accender [en numeros enteros]: "))
         self.y= self.y + l
